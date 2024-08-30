@@ -36,8 +36,9 @@
                         Poppins: 'Poppins',
                     },
                     backgroundImage: {
-                        leaf1: "url('./images/leaf01.png')",
+                        bannerBg: "url('./images/leaf01.png')",
                         call_to_action: "url('./images/call.jpg')",
+                        bannerImage: "url('./images/bannerbg.png')",
                     },
             }
           }
@@ -53,12 +54,12 @@
    <header>
 
     <!-- nav starts  -->
-     <nav class="w-11/12 mx-auto border">
-        <div class="navbar bg-base-100 p-0">
+     <nav class="w-11/12 mx-auto ">
+        <div class="navbar bg-base-100 p-0 py-5">
             <div class="navbar-start">
          
               <a class="#">
-                <img class="w-36 border" src="./images/logo.svg" alt="">
+                <img class="w-36" src="./images/logo.svg" alt="">
               </a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -101,6 +102,17 @@
           </div>
      </nav>
     <!-- nav ends  -->
+
+    <!-- banner section start  -->
+     <section class="h-[86vh] bg-bannerBg bg-no-repeat bg-right-bottom opacity">
+      <div class="w-full h-full bg-body bg-opacity-90">
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+      </div>
+     </section>
+    <!-- banner section ends  -->
    </header>
   <!-- Header section ends  -->
 </body>
