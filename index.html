@@ -38,7 +38,6 @@
                     backgroundImage: {
                         bannerBg: "url('./images/leaf01.png')",
                         call_to_action: "url('./images/call.jpg')",
-                        bannerImage: "url('./images/bannerbg.png')",
                     },
             }
           }
@@ -104,11 +103,23 @@
     <!-- nav ends  -->
 
     <!-- banner section start  -->
-     <section class="h-[86vh] bg-bannerBg bg-no-repeat bg-right-bottom opacity">
+     <section class=" bg-bannerBg bg-no-repeat bg-right-bottom opacity">
       <div class="w-full h-full bg-body bg-opacity-90">
-          <div>
-            <div></div>
-            <div></div>
+          <div class="flex items-center justify-between w-9/12 mx-auto py-28 md:flex-row flex-col">
+            <div class="flex-1">
+                <img src="./images/bannerbg.png" alt="">
+            </div>
+            <div class="flex-1 sm:text-left text-center">
+                <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+                <h1 class="lg:text-6xl text-4xlfont-semibold leading-tight">Join The Organic Movement</h1>
+                <p class="my-5 text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, facere accusantium. Quo rem aspernatur vitae.</p>
+                <div class="flex sm:justify-start justify-center">
+                    <button class="flex items-center bg-accent text-white px-10 py-5 gap-2 rounded-md hover:bg-primary">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Shop Now</span>
+                    </button>
+                </div>
+            </div>
           </div>
       </div>
      </section>
